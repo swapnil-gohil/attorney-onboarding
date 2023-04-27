@@ -1,6 +1,10 @@
 import azure.durable_functions as df
 
+<<<<<<< HEAD
 activity_functions = ['CreateStorageAccount', 'CreateDatabase', 'CreateKubernetesObjects']
+=======
+activity_functions = ['CreateStorageAccount', 'CreateDatabase']
+>>>>>>> 7854ba40b9f0fc0f286fc1bde45880662a56f3a6
 
 
 def activity_func_status(organization_name: str, storage_account_status: str, database_status: str, application_status: str) -> dict:
